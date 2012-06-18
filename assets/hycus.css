@@ -1,0 +1,107 @@
+/*
+ * @package Hycus.Framework
+ * @copyright Copyright 2010, Hycus.com. All rights reserved.
+ * @license	GNU/GPL, see gpl.html
+ * Hycus-CMS! is free and open source PHP based content management System.
+ */
+
+
+#alert
+{
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	height: 0;
+	color: #000;
+	font: 20px/40px arial, sans-serif;
+	opacity: .9;
+}
+.error
+{
+	color:red;
+}
+.tooltip{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: none;
+	color:#EFEFEF;
+	background-color:#000000;
+	border:3px solid black;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+
+	/* for IE */
+	filter:alpha(opacity=90);
+	/* CSS3 standard */
+	opacity:0.9;
+}
+.tooltip span{
+	margin:15px 10px;
+}
+/*Tabbed content Styling Starts*/
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 22px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 21px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 20px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #E6E6E6;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+}
+.tab_content {
+	padding: 20px;
+}
+
+/*Tabbed content Styling Ends*/
+readmore{
+	display:block;
+	width:100%;
+	clear:both;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='menulist' name='menuid' defaultvalue='0' label='Menu Name'  description='Choose the menu to be displayed' />
+	<param type='selectlist' name='menutype' label='Menu Type' description='Choose menu direction (ex: Vertical or Horizontal)'>
+		<option value='vertical'>Vertical</option>
+		<option value='horizontal'>Horizontal</option>
+		<option value='horizontaldropdown'>Horizontal With Dropdown</option>
+	</param>
+</params>

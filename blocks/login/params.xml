@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='checkbox' name='showavatar' label='Show avatar in the block?' />
+	<param type='checkbox' name='showedit' label='Show edit profile link?' />
+	<param type='checkbox' name='showblog' label='Show add blog link?' />
+</params>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task>
+	<value subval="menucontentlist">page</value>
+	<value subval="menucontentlist">blog</value>
+	<value subval="menucategorylist">catview</value>
+	<value>addblog</value>
+</task>

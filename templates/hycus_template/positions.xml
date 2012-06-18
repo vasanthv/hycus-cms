@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blockpositions>
+	<blockposition>breadcrumb</blockposition>
+	<blockposition>topmenu</blockposition>
+	<blockposition>topnews</blockposition>
+	<blockposition>slideshow</blockposition>
+	<blockposition>search</blockposition>
+	<blockposition>right</blockposition>
+	<blockposition>footer</blockposition>
+</blockpositions>

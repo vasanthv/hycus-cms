@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='colorpicker' name='themecolor' defaultvalue='00ff00' label='Choose template theme color'  />
+</params>

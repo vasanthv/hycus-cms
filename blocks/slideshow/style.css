@@ -1,0 +1,85 @@
+/*
+ * @package Hycus.Framework
+ * @copyright Copyright 2010, Hycus.com. All rights reserved.
+ * @license	GNU/GPL, see gpl.html
+ * Hycus-CMS! is free and open source PHP based content management System.
+ */
+
+/* Easy Slider */
+#slider ul, #slider li, #slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.slider img {
+ 	border:1px solid #dddddd;
+}
+.slider {
+	background-color:#fff;
+	margin-bottom:10px;
+}
+
+#slider2{margin-top:1em;}
+#slider li, #slider2 li{
+/*
+	define width and height of list item (slide)
+	entire slider area will adjust according to the parameters provided here
+*/
+	width:300px;
+	height:190px;
+	overflow:hidden;
+}
+
+#prevBtn a, #nextBtn a,#slider1next a, #slider1prev a {
+	float:right;
+	border:none;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	background:transparent;
+	font-size:0.88em;
+	text-decoration:none;
+	background:transparent url('images/arrow-next.png') no-repeat scroll top left;
+	height:25px;
+	width:25px;
+	display:block;
+}
+
+#nextBtn a, #slider1next a {
+	background-image:url('images/arrow-prev.png');
+	margin-right:5px;
+}
+
+/* numeric controls */
+
+ol#controls{
+	margin:1em 0;
+	padding:0;
+	height:28px;
+}
+ol#controls li{
+	margin:0 10px 0 0;
+	padding:0;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+}
+ol#controls li a{
+	float:left;
+	height:28px;
+	line-height:28px;
+	border:1px solid #ccc;
+	background:#DAF3F8;
+	color:#555;
+	padding:0 10px;
+	text-decoration:none;
+}
+ol#controls li.current a{
+	background:#5DC9E1;
+	color:#fff;
+}
+ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+
+/* // Easy Slider */

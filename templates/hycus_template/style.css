@@ -1,0 +1,475 @@
+/*
+ * @package Hycus.Framework
+ * @copyright Copyright 2010, Hycus.com. All rights reserved.
+ * @license	GNU/GPL, see gpl.html
+ * Hycus-CMS! is free and open source PHP based content management System.
+ */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	color:#444444;
+	background:#DDDDDD;
+}
+
+/** code **/
+code {
+	border-left:4px solid #ddd;
+	font-family:"Courier New", Courier, monospace;
+	margin:0 0 20px 20px;
+	padding:10px;
+	display:block;
+	color:#666666;
+}
+
+
+/** blockquotes **/
+blockquote {
+	display:block;
+	border-left:4px solid #99C1D6;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	margin:0 0 20px 20px;
+	padding:10px 10px 0 10px;
+	color:#333333;
+}
+blockquote p {
+	margin:0;
+	line-height:2.0em;
+	padding-bottom:10px;
+}
+
+
+/** default/generic headers **/
+h1, h2, h3, h4, h5 {
+	padding-bottom:5px;
+}
+h1 {
+	font-size:2.5em;
+}
+h2 {
+	font-size:1.8em;
+	color:#212121;
+}
+h3 {
+	color:#333333;
+	font-size:1.4em;
+	padding-bottom:5px;
+	border-bottom:1px solid #e0e0e0;
+
+}
+h4 {
+	font-size:1.3em;
+	color:#444;
+	padding-bottom:5px;
+}
+
+h5 {
+	color:#005580;
+	font-size:1.1em;
+}
+
+h1,h2,h3,h4,h5 {
+	color:#005580;
+	margin:0px;
+}
+/** paragraphs **/
+p {
+	line-height:1.8em;
+	color:#444444;
+}
+
+
+/** lists **/
+ul, ol {
+	color:#444444;
+	margin:7px 0 15px 15px;
+	line-height:1.7em;
+	font-size:1.0em;
+}
+li {
+	padding-bottom:5px;
+}
+ul.nobullets {
+	list-style:none;
+	margin-left:5px;
+}
+ul.servicelist {
+	list-style:none;
+	margin:30px 0 10px;
+}
+ul.servicelist li {
+	float:left;
+	width:38%;
+	display:block;
+	background:transparent url('images/question-icon.gif') no-repeat scroll 0 0;
+	padding:0 0 40px 60px;
+}
+ul.servicelist li.app-icon { background-image:url('images/app-icon.gif'); }
+ul.servicelist li.chart-icon { background-image:url('images/chart-icon.gif'); }
+ul.servicelist li.bulb-icon { background-image:url('images/bulb-icon.gif'); }
+ul.servicelist li.lock-icon { background-image:url('images/lock-icon.gif'); }
+ul.servicelist li.right {
+	float:right;
+}
+
+
+/** links **/
+a {
+	color:#006699;
+}
+a:hover {
+	color:#0080BD;
+}
+.button {
+	color:#ffffff;
+	background-color:#006699;
+	text-decoration:none;
+	padding:5px;
+	border:none;
+}
+.hycustable{ border-collapse:collapse;}
+.hycustable thead, .hycustable th{background:#DDDDDD;}
+
+
+/** images **/
+img {
+	border:none;
+}
+.column img {
+	/*border:4px solid #e0e0e0;*/
+}
+
+
+/** page structure **/
+div#header {
+	height:100px;
+	background:#000000 url('images/header-bg.jpg') repeat-x scroll top left;
+}
+div#middlebody {
+	background:#006699 url('images/title-bg.png') repeat-x scroll top left;
+	_background:none;
+}
+div#body {
+	background:#ffffff url('images/body-bg.jpg') repeat-x scroll top left;
+	border-top:1px solid #ffffff;
+}
+div#innerheader, div#middleinner, div#innerbody, div#innerfooter, div#middlelinner {
+	width:960px;
+	margin:0 auto;
+}
+div#innerbody {
+	padding-top:10px;
+}
+
+/** logo + nav **/
+div#sitename {
+	width:210px;
+	float:left;
+}
+div#sitename a{
+	text-decoration:none;
+}
+div#header h1 {
+	color:#ffffff;
+	font-size:2.6em;
+	margin-top:20px;
+	padding:0;
+}
+div#header h1 strong {
+	color:#0082BE;
+}
+div#nav {
+	float:right;
+	padding-top:40px;
+}
+div#nav ul {
+	list-style:none;
+	line-height:1.0em;
+	margin:0;
+}
+div#nav ul li {
+	display:block;
+	padding:0 5px;
+}
+div#nav ul li a {
+	float:left;
+	display:block;
+	color:#ffffff;
+	font-size:0.88em;
+	text-decoration:none;
+	font-weight:bold;
+	padding:5px 7px;
+}
+div#nav ul li a:hover {
+	background-color:#222;
+}
+a.selected{
+	background-color:#0082BE;
+	color:#fff;
+}
+
+/*Sub menu*/
+div#nav ul li ul a{
+	width:100%;
+	background:#222;
+}
+div#nav ul li ul a.selected{
+	background-color:#0082BE;
+}
+
+
+/** title **/
+div#middlebody {
+	padding:13px 0;
+	color:#ffffff;
+}
+div#middlebody h2 {
+	font-size:1.8em;
+	color:#fff;
+	font-weight:normal;
+	padding:0;
+}
+div#middlebody p {
+	color:#ffffff;
+	font-size:0.95em;
+}
+div.subpage {
+	padding:25px 0;
+}
+
+
+/** slider **/
+#slider-container {
+	width:300px;  /** 300 (width of image) + 10px left padding + 10px right padding + 1 px left border + 1px right border */
+	float:left;
+	margin-right:20px;
+	margin-top:8px;
+}
+
+
+/** layouts **/
+div#middlelinner{
+	height:20px;
+}
+div#breadcrumb{
+	margin:7px auto 3px;
+	_width:60%;
+	float:left;
+	font-size:small;
+}
+div#breadcrumb a{
+	font-size:small;
+}
+div#searchbox{
+	_width:39%;
+	margin:3px auto;
+	float:right;
+	height:23px;
+}
+div#searchbox form{
+
+}
+
+div.column {
+	background-color:#ffffff;
+	font-size:0.8em;
+	border-top:1px solid #cccccc;
+}
+div.column-60 {
+	width:610px;
+	padding:10px 10px;
+}
+div.column-30 {
+	width:300px;
+	padding:10px 10px;
+}
+div.column-100 {
+	width:960px;
+	padding:10px;
+}
+div.left {
+	float:left;
+	margin-right:5px;
+}
+div.right {
+	/*margin-left:5px;*/
+	float:right;
+}
+div.right ul{
+	padding:5px;
+}
+div.right li{
+	padding:5px;
+}
+div.right ul li a{
+	padding:5px 0;
+}
+
+div#portfolio {
+}
+div#portfolio div.portfolio-column {
+	width:290px;
+	float:left;
+}
+div#portfolio div.column-left {
+	margin-right:35px;
+}
+div#portfolio div.portfolio-row {
+	clear:both;
+	padding-bottom:30px;
+}
+div#portfolio div.portfolio-column img {
+	border:5px solid #ddd;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+div#portfolio div.portfolio-column h2 a {
+	font-weight:bold;
+	font-size:0.8em;
+}
+div#portfolio div.portfolio-column h2 {
+	padding-top:5px;
+}
+
+#hycuslider
+{
+	width:200px;
+	float:left;
+}
+#topnews
+{
+	margin-left:220px;
+}
+.hycuslatestblogs ul{
+	list-style:none;
+	padding:5px 0px;
+	margin:0px;
+}
+.hycuslatestblogs li{
+	padding-bottom:0px;
+	border-bottom:1px dotted #E0E0E0;
+}
+/** footer **/
+div#footer {
+	background-color:#ddd;
+	padding:15px;
+}
+div#footer p {
+	color:#999999;
+	margin:0;
+	font-size:0.8em;
+}
+div#footer a, div#footer a:hover {
+	color:#999999;
+	text-decoration:none;
+	border-bottom:1px dotted #999999;
+}
+
+
+/** generic classes */
+.center {
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+.clear {
+	clear:both;
+}
+span.date {
+	text-transform:uppercase;
+	font-size:0.85em;
+	font-weight:bold;
+	color:#999999;
+}
+p.phone {
+	font-weight:bold;
+	font-size:2.4em;
+	color:#006599;
+}
+p.testimonial {
+	margin:10px 0;
+	font-size:1.2em;
+	font-style:italic;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+p.testimonial strong, p.testimonial em {
+	display:block;
+	font-style:normal;
+	font-size:0.8em;
+	text-align:right;
+}
+p.testimonial span {
+	font-size:1.7em;
+	font-weight:bold;
+}
+
+
+/*Form Styling Starts*/
+.hycusforms div
+{
+	padding:3px 0;
+}
+.hycusforms label
+{
+	font-weight:bold;
+}
+.hycusforms input.textbox
+{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	width:250px;
+	margin:3px 0px 10px;
+}
+.hycusforms textarea
+{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	width:450px;
+	height:150px;
+	margin:3px 0px 10px;
+}
+.hycusforms select
+{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	margin:3px 0px 10px;
+}
+/*Form Styling Ends*/
+
+
+/*Pagination Styling Starts*/
+div.pagination{
+	text-align:center;
+}
+div.pagination span{
+	padding:0 3px;
+}
+.pageresult
+{
+	margin: 5px 0px;
+}
+/*Pagination Styling Ends*/
+
+/*Module based styling Starts*/
+.blogs{
+	padding: 0px 0px 5px 0px;
+}
+.blog_details{
+	font-size:10px;
+	color:#666666;
+}
+.blog_desc{
+	padding:5px 0;
+}
+.hycusblock
+{margin:0 0 5px 0;}

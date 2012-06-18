@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='usertypelist' name='defaultusertype' defaultvalue='1' label='Select Default usertype'  />
+	<param type='checkbox' name='useractivation' label='User email verification'  />
+	<param type='checkbox' name='registrationcaptcha' label='Use Captcha in Registration'  />
+	<param type='checkbox' name='registrationtos' label='Terms and conditions in registration'  />
+</params>

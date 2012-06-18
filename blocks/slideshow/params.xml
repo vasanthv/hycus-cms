@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='selectlist' name='navigationtype' label='Navigation Type' description='Choose a navigation type'>
+		<option value='none'>None</option>
+		<option value='arrows'>Arrows</option>
+		<option value='numbers'>Numbers</option>
+	</param>
+	<param type='text' name='slideshowwidth' defaultvalue='' label='Slideshow width' size='5' description='Width of the slideshow in px'/>
+	<param type='text' name='slideshowheight' defaultvalue='' label='Slideshow height' size='5' description='Height of the slideshow in px'/>
+</params>

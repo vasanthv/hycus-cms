@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='text' name='catids' defaultvalue='' label='Categories'  description='(Eg: 3,5)' />
+	<param type='text' name='count' defaultvalue='5' label='No. of items'  />
+	<param type='selectlist' name='blogblocktype' label='Select Type'>
+		<option value='latest'>Latest</option>
+		<option value='popular'>Popular</option>
+	</param>
+	<param type='checkbox' name='showdate' label='Show Last Updated date?' />
+</params>

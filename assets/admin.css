@@ -1,0 +1,175 @@
+/*
+ * @package Hycus.Framework
+ * @copyright Copyright 2010, Hycus.com. All rights reserved.
+ * @license	GNU/GPL, see gpl.html
+ * Hycus-CMS! is free and open source PHP based content management System.
+ */
+
+/*General Styleing Starts*/
+body {
+	font: 13px "lucida grande",tahoma,verdana,arial,sans-serif;
+	margin:0px;padding:0px;
+}
+
+h4{
+	margin:0px 0 5px;
+	font-size:18px;
+}
+a{
+	color:#0063DC;
+	text-decoration:none;
+}
+a:hover{
+	color:#0063DC;
+	text-decoration:underline;
+}
+a:focus, a:active{
+	color:#0063DC;
+}
+.button
+{
+	font-weight:bold;
+	height:33px;
+	border:1px solid #777777;
+	background: url(../images/button.png) top repeat-x;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:10px 0;
+	cursor:pointer;
+}
+.button:hover
+{
+	height:33px;
+	border:1px solid #BABABA;
+	background: url(../images/button.png) bottom repeat-x;
+}
+.linkdefiner
+{
+	float:left;
+	padding:0 10px 0 0;
+}
+thead
+{
+	font-weight:bold;
+}
+table.admintable{
+	 border-collapse:collapse;
+	 border:thin solid #C3C3C3;
+}
+table.admintable thead{ background:#DFDFDF;}
+table.admintable tr.even{ background:#F7F7F7;}
+table.admintable tr.odd{ background:#ffffff;}
+/*General Styleing Ends*/
+
+/*Form Styling Starts*/
+.adminhycusforms div
+{
+	padding:3px 0;
+}
+.adminhycusforms label
+{
+	font-weight:bold;
+}
+.adminhycusforms input.textbox
+{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	width:250px;
+	margin:3px 0px 10px;
+}
+.adminhycusforms textarea
+{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	width:450px;
+	height:150px;
+	margin:3px 0px 10px;
+}
+.adminhycusforms select
+{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+	margin:3px 0px 10px;
+}
+/*Form Styling Ends*/
+
+
+/*Admin Styling Starts*/
+#adminbody {background: url(../images/adminbodybg.jpg) bottom repeat-x;}
+#ajax-loader {position:fixed; top:0px; left:0px; width:100%; height:100%; background: #ffffff url(../images/ajaxloader.gif) center no-repeat;display:none;z-index:100;	/* for IE */ filter:alpha(opacity=90); /* CSS3 standard */ opacity:0.9; }
+
+#admin-wrap {margin:0 auto;}
+
+#admin-header {background:#234A8B;color:#E4E8F0;font-size:20px;padding:10px;}
+
+#admin-title{padding:100px auto;}
+#admin-title a{color:#E4E8F0;}#admin-title a:hover{text-decoration:none;}
+
+#moduleselector {font-size:13px;position:relative;top:0px;float:right;}
+#moduleselector a{color:#fff;}
+#modulelisttitle{font-size:16px;padding:5px;}
+#modulelist {}
+#modulelist ul{ list-style:none;padding:0 10px;}
+#modulelist li{}
+#modulelist li a{ display:block;padding:8px 25px;width:140px;margin:0px;background:url(../images/arrowright.png) left center no-repeat;color:#234A8B;}
+#modulelist li a:hover, #modulelist li a:focus, #modulelist li a:active{background:url(../images/arrowright.png) right center no-repeat;text-decoration:none;}
+
+#modulewrap {padding:10px;clear:both;margin:0 20px;}
+
+.logoutsubmit{color:red;border:none;background:none;cursor:pointer;}
+.logoutsubmit:hover {text-decoration:underline;}
+
+/*Sortable List styling*/
+
+.sortable{
+	list-style: none;
+	padding:0 10px;
+}
+.sortable li {
+	display: block;
+	padding:5px 10px;
+	margin-bottom: 3px;
+	background-color: #E9E9E9;
+}
+
+.sortable li img.handle {
+	margin-right: 20px;
+	cursor: n-resize;
+}
+
+/*Sortable List Ends*/
+
+/*Menu item list Styling starts*/
+.adminlistbuttons{
+	float:right;
+}
+.adminlistbuttons span{
+	margin:10px;
+}
+/*Menu item list Styling ends*/
+
+/*Admin top menu styling*/
+#adminmainmenu{
+clear:both;padding:0px 5px;text-align:left;background:#234A8B;color:#E4E8F0;height:21px;
+}
+#adminmainmenu a{
+	padding:5px 7px;
+	background:#305795;
+	color:#fff;
+}
+
+#adminmainmenu a:hover, #adminmainmenu a:active, #adminmainmenu a:focus{
+	text-decoration:none;
+	background:#fff;
+	color:#000;
+}
+/*Admin top menu styling ends*/
+
+/*Admin Styling Ends*/

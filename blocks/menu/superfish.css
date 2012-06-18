@@ -1,0 +1,58 @@
+/*
+ * @package Hycus.Framework
+ * @copyright Copyright 2010, Hycus.com. All rights reserved.
+ * @license	GNU/GPL, see gpl.html
+ * Hycus-CMS! is free and open source PHP based content management System.
+ */
+
+
+
+/*** ESSENTIAL STYLES ***/
+.hycusmenu_sfmenu, .hycusmenu_sfmenu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.hycusmenu_sfmenu {
+	line-height:	1.0;
+}
+.hycusmenu_sfmenu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.hycusmenu_sfmenu ul li {
+	width:			100%;
+}
+.hycusmenu_sfmenu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.hycusmenu_sfmenu li {
+	position:		relative;
+}
+.hycusmenu_sfmenu a {
+}
+.hycusmenu_sfmenu li:hover ul,
+.hycusmenu_sfmenu li.sfHover ul {
+	left:			0;
+	top:			1.7em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.hycusmenu_sfmenu li:hover li ul,
+ul.hycusmenu_sfmenu li.sfHover li ul {
+	top:			-999em;
+}
+ul.hycusmenu_sfmenu li li:hover ul,
+ul.hycusmenu_sfmenu li li.sfHover ul {
+	left:			9em; /* match ul width */
+	top:			0;
+}
+ul.hycusmenu_sfmenu li li:hover li ul,
+ul.hycusmenu_sfmenu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.hycusmenu_sfmenu li li li:hover ul,
+ul.hycusmenu_sfmenu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}

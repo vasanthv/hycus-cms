@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<params>
+	<param type='text' name='searchtext' defaultvalue='search' label='Search Text'  description='' />
+	<param type='text' name='searchbuttontext' defaultvalue='Go' label='Button Text' />
+	<param type='checkbox' name='showbutton' defaultvalue='1' label='Show button' />
+</params>
